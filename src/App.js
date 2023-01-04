@@ -6,8 +6,8 @@ import './styles/App.css'
 
 function App() {
   const [posts, setPosts] = useState([
-    {id: 1, title:'javaScript', desc: 'Descrip'},
-    {id: 2, title:'javaScript 2', desc: 'Descrip 2'},
+    {id: 1, title:'Post1', desc: 'Descrip1'},
+    {id: 2, title:'post2', desc: 'Descrip 2'},
   ])
 
   const createNewPost=(newPost) => {
